@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int get_random(int max){
+    int divisor = RAND_MAX/(max+1);
+    int retval;
+        do { 
+          retval = rand()/divisor;
+        }while ( retval>max);
+        return retval;
+        
+}
+int main (){
+    int numberofdice, numberoffaces,result;
+ 
+ printf ("How many dice?");
+ scanf ("%d",&numberofdice);
+ 
+ printf ("How many faces on the dice?");
+ scanf("%d",&numberoffaces);
+ 
+result=get_random(numberoffaces);
+ printf ("%d" , result);
+}
