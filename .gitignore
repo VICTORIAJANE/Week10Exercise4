@@ -11,9 +11,12 @@ int get_random(int max){
         
 }
 int main (){
-    int numberofdice, numberoffaces,result;
- 
- printf ("How many dice?");
+    int numberofdice, numberoffaces,result, q=0 charc c;
+
+while (q==0{
+//
+
+  printf ("How many dice?");
  scanf ("%d",&numberofdice);
  
  printf ("How many faces on the dice?");
@@ -21,4 +24,9 @@ int main (){
  
 result=get_random(numberoffaces);
  printf ("%d" , result);
+ 
+ printf ("Do you want to continue? y/n");
+ sacnf ("%c", ?&c);
+    if (c='n')
+    q=1;
 }
