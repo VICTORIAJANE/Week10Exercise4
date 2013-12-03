@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,7 +14,7 @@ int get_random(int max){
         
 }
 int main (){
-    int numberofdice, numberoffaces,result,q=0,char c;
+    int numberofdice, numberoffaces,result,q=0 or char c;
 
 
 while (q==0){
@@ -36,3 +38,4 @@ result=get_random(numberoffaces);
 
     return 0
 }
+
