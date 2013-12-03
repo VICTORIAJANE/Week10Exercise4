@@ -29,4 +29,6 @@ result=get_random(numberoffaces);
  sacnf ("%c", ?&c);
     if (c='n')
     q=1;
+
+    return 0
 }
