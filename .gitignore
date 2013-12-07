@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -23,15 +22,7 @@ while (q==0){
 
   printf ("How many dice?");
  scanf ("%d",&numberofdice);
- 
- printf ("How many faces on the dice?");
- scanf("%d",&numberoffaces);
- 
-result=get_random(numberoffaces);
- printf ("%d" , result);
- 
- printf ("Do you want to continue? y/n");
- sacnf ("%c", ?&c);
+ scanf ("%c", ?&c);
     if (c='n')
     q=1;
 
