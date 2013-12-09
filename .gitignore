@@ -1,6 +1,7 @@
-
 #include <stdio.h>
 #include <stdlib.h>
+
+
 
 
 int get_random(int max){
@@ -13,20 +14,37 @@ int get_random(int max){
         
 }
 int main (){
-    int numberofdice, numberoffaces,result,q=0 or char c;
+    int numberofdice, numberoffaces,result,q=0 or char c, i;
+
+
 
 
 while (q==0){
 //
 
 
+
+
   printf ("How many dice?");
  scanf ("%d",&numberofdice);
+
+printf ("How many faces?");
+scanf ("%/d", &faces");
+
+for(i=0; i<numberofdice; i++){
+     result=get_random(faces-1)+1;
+     printf("%d\n", result);
+}
+
+printf ("Do you want to continue? y/n");
  scanf ("%c", ?&c);
-    if (c='n')
+    if (c=='n')
     q=1;
+}
 
 
-    return 0
+
+
+    return 0;
 }
 
